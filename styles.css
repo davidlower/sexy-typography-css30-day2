@@ -3,8 +3,14 @@ font-family: 'Righteous', cursive;
 font-family: 'Cinzel', serif; */
 
 html {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
+   -webkit-box-align: center;
    align-items: center;
+   -ms-flex-align: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
    justify-content: center;
 
    color: white;
@@ -17,13 +23,21 @@ body {
    width: 1000px;
    height: 100vh;
 
+   -webkit-box-shadow: 1px 0 3px 3px white,
+   -1px 0 3px 3px white;
    box-shadow: 1px 0 3px 3px white,
    -1px 0 3px 3px white;
 }
 
 h1 {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
+   -webkit-box-align: center;
    align-items: center;
+   -ms-flex-align: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
    justify-content: center;
 
    margin: 150px 0;
@@ -33,6 +47,7 @@ h1 {
    position: relative;
 
    cursor: pointer;
+   -webkit-transform: rotateX(10deg);
    transform: rotateX(10deg);
 
    color: #02cca8;
@@ -50,7 +65,9 @@ h1 {
 .letter-1:hover, .letter-2:hover, .letter-3:hover, .letter-4:hover, .letter-5:hover, .letter-6:hover, .letter-7:hover, .letter-8:hover, .letter-9:hover {
    position: relative;
 
+   -webkit-transition: all 0.5s ease;
    transition: all 0.5s ease;
+   -webkit-transform: translate(1px, 8px);
    transform: translate(1px, 8px);
 
    color: #059f84;
@@ -73,6 +90,8 @@ THIRD word
 
 .third-word {
    position: relative;
-   transform: rotate(5deg, 5deg) skewY(5deg);
+
    cursor: pointer;
+   -webkit-transform: rotate(5deg, 5deg) skewY(5deg);
+   transform: rotate(5deg, 5deg) skewY(5deg);
 }
