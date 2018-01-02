@@ -1,0 +1,78 @@
+/* font-family: 'Bungee', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Cinzel', serif; */
+
+html {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   color: white;
+   background-color: black;
+
+   font-size: 60px;
+}
+
+body {
+   width: 1000px;
+   height: 100vh;
+
+   box-shadow: 1px 0 3px 3px white,
+   -1px 0 3px 3px white;
+}
+
+h1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   margin: 150px 0;
+}
+
+.first-word {
+   position: relative;
+
+   cursor: pointer;
+   transform: rotateX(10deg);
+
+   color: #02cca8;
+   text-shadow: 1px 5px 0px #04826c,
+   1px 7px 1px #04937a,
+   1px 9px 1px #04aa8d,
+   1px 11px 1px #05b697,
+   1px 11px 15px rgba(5, 182, 151, 0.9);
+
+   font-family: 'Bungee', cursive;
+
+}
+
+
+.letter-1:hover, .letter-2:hover, .letter-3:hover, .letter-4:hover, .letter-5:hover, .letter-6:hover, .letter-7:hover, .letter-8:hover, .letter-9:hover {
+   position: relative;
+
+   transition: all 0.5s ease;
+   transform: translate(1px, 8px);
+
+   color: #059f84;
+   text-shadow: 0 3px 0 #036654,
+   0 4px 4px rgba(5, 182, 151, 0.9);
+}
+
+.second-word {
+   font-family: 'Cinzel', serif;
+}
+
+.third-word {
+   font-family: 'Righteous', cursive;
+}
+
+
+/* =========================
+THIRD word
+========================= */
+
+.third-word {
+   position: relative;
+   transform: rotate(5deg, 5deg) skewY(5deg);
+   cursor: pointer;
+}
