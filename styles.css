@@ -47,15 +47,15 @@ h1 {
    position: relative;
 
    cursor: pointer;
-   -webkit-transform: rotateX(10deg);
-   transform: rotateX(10deg);
+   -webkit-transform: rotateX(15deg);
+   transform: rotateX(15deg);
 
    color: #02cca8;
    text-shadow: 1px 5px 0px #04826c,
    1px 7px 1px #04937a,
    1px 9px 1px #04aa8d,
    1px 11px 1px #05b697,
-   1px 11px 15px rgba(5, 182, 151, 0.9);
+   1px 20px 15px rgba(5, 182, 151, 0.3);
 
    font-family: 'Bungee', cursive;
 
@@ -92,6 +92,26 @@ THIRD word
    position: relative;
 
    cursor: pointer;
-   -webkit-transform: rotate(5deg, 5deg) skewY(5deg);
-   transform: rotate(5deg, 5deg) skewY(5deg);
+   -webkit-transform: rotate(3deg) skew(-3deg, -3deg);
+   transform: rotate(3deg) skew(-3deg, -3deg);
+   transform-origin: center center;
+   color: #fc0569;
+   text-shadow: 1px 1px 1px #cc0556,
+   2px 2px 1px #bd044f,
+   4px 4px 1px #ab0448,
+   6px 6px 1px #990541,
+   8px 8px 1px #850338,
+   10px 10px 1px #730230,
+   12px 12px 1px #600228,
+   14px 14px 1px #5d1633;
+}
+
+.third-word:hover {
+   /* transform: translate(14px, 14px); */
+   transition: all 0.5s ease;
+   text-shadow: 4px 4px 1px #710531;
+   -webkit-transform: rotate(3deg) skew(-3deg, -3deg);
+   transform: rotate(3deg) skew(-3deg, -3deg) translate(7px, 7px);
+   transform-origin: center center;
+   color: #cc0556;
 }
