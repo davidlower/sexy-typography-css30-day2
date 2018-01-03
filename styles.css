@@ -55,7 +55,7 @@ h1 {
    1px 7px 1px #04937a,
    1px 9px 1px #04aa8d,
    1px 11px 1px #05b697,
-   1px 20px 15px rgba(5, 182, 151, 0.3);
+   1px 20px 10px rgba(5, 182, 151, 0.3);
 
    font-family: 'Bungee', cursive;
 
@@ -72,7 +72,7 @@ h1 {
 
    color: #059f84;
    text-shadow: 0 3px 0 #036654,
-   0 4px 4px rgba(5, 182, 151, 0.9);
+   0 5px 8px rgba(5, 182, 151, 0.7);
 }
 
 .second-word {
@@ -94,7 +94,9 @@ THIRD word
    cursor: pointer;
    -webkit-transform: rotate(3deg) skew(-3deg, -3deg);
    transform: rotate(3deg) skew(-3deg, -3deg);
+   -webkit-transform-origin: center center;
    transform-origin: center center;
+
    color: #fc0569;
    text-shadow: 1px 1px 1px #cc0556,
    2px 2px 1px #bd044f,
@@ -108,10 +110,13 @@ THIRD word
 
 .third-word:hover {
    /* transform: translate(14px, 14px); */
+   -webkit-transition: all 0.5s ease;
    transition: all 0.5s ease;
-   text-shadow: 4px 4px 1px #710531;
    -webkit-transform: rotate(3deg) skew(-3deg, -3deg);
    transform: rotate(3deg) skew(-3deg, -3deg) translate(7px, 7px);
+   -webkit-transform-origin: center center;
    transform-origin: center center;
+
    color: #cc0556;
+   text-shadow: 4px 4px 1px #710531;
 }
