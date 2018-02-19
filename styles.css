@@ -14,7 +14,7 @@ html {
    justify-content: center;
 
    color: white;
-   background-color: black;
+   background-color: white;
 
    font-size: 60px;
 }
@@ -58,9 +58,7 @@ h1 {
    1px 20px 10px rgba(5, 182, 151, 0.3);
 
    font-family: 'Bungee', cursive;
-
 }
-
 
 .letter-1:hover, .letter-2:hover, .letter-3:hover, .letter-4:hover, .letter-5:hover, .letter-6:hover, .letter-7:hover, .letter-8:hover, .letter-9:hover {
    position: relative;
@@ -85,7 +83,7 @@ h1 {
 
 
 /* =========================
-THIRD word
+3D SMASH
 ========================= */
 
 .third-word {
@@ -113,7 +111,7 @@ THIRD word
    -webkit-transition: all 0.5s ease;
    transition: all 0.5s ease;
    -webkit-transform: rotate(3deg) skew(-3deg, -3deg);
-   transform: rotate(3deg) skew(-3deg, -3deg) translate(7px, 7px);
+   transform: rotate(3deg) skew(-3deg, -3deg) translate(4px, 4px);
    -webkit-transform-origin: center center;
    transform-origin: center center;
 
